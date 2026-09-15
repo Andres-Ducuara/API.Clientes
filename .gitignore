@@ -1,0 +1,64 @@
+## .NET / Visual Studio
+bin/
+bin/**
+obj/
+obj/**
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.jfm
+*.pdb
+*.cache
+*.tmp
+*.temp
+
+## Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ReSharper / Rider
+*.DotSettings.user
+.idea/
+*.sln.iml
+
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## SQL / local data
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.sqlite
+*.db
+
+## Test results
+TestResults/
+coverage*/
+*.trx
+
+## Publish output
+publish/
+
+## Others
+*.log
